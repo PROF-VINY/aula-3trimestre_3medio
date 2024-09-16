@@ -1,0 +1,30 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: green;
+}
+:root {
+--bg-color: #f5f5f5;
+--primary-color: #ffd900;
+--secundary-color: #c1e61e;
+--text-color: #00641e;
+}
+
+body {
+background-color: green;
+color: var(--text-color);
+font-family: var(--font);
+}
+
+header {
+background-color: var(--secundary-color);
+text-align: center;
+}
+nav {
+display: flex;
+justify-content: center;
+font-weight: 400;
+}
